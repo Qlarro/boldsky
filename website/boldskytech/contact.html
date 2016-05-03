@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>Responsive website template for products</title>
+    <title>Boldsy Technologies</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,7 +33,7 @@
         <header id="header" class="header navbar-fixed-top">  
             <div class="container">       
                 <h1 class="logo">
-                    <a href="index.html"><span class="logo-icon"></span><span class="text">Velocity</span></a>
+                    <a href="index.html"><span class="logo-icon"></span><span class="text">Boldsky</span></a>
                 </h1><!--//logo-->
                 <nav class="main-nav navbar-right" role="navigation">
                     <div class="navbar-header">
@@ -77,31 +77,45 @@
         <section class="contact-section section section-on-bg">
             <div class="container">
                 <h2 class="title text-center">Contact Us</h2>
-                <p class="intro text-center">We’d love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <form id="contact-form" class="contact-form" method="post" action="">                    
+                <p class="intro text-center">We’d love to hear from you.</p>                
+                <form id="contact-form" id="agile-form"  class="contact-form" action="https://qlarro.agilecrm.com/formsubmit" method="GET">                    
+                <!-- Agile CRM hidden fields-->
+                <fieldset>
+                <div style="display: none; height: 0px; width: 0px;">
+                <input type="hidden" id="_agile_form_name" name="_agile_form_name" value="Contact Us">
+                <input type="hidden" id="_agile_domain" name="_agile_domain" value="qlarro">
+                <input type="hidden" id="_agile_api" name="_agile_api" value="f16ut0i5kesvpge0t51ho1gn90">
+                <input type="hidden" id="_agile_redirect_url" name="_agile_redirect_url" value="http://boldskytechnologies.com/contact.html">
+                <input type="hidden" id="_agile_form_id_tags" name="tags" value="">
+                </div>
                     <div class="row text-center">
                         <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
                             <div class="row">                                                           
                                 
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <label class="sr-only" for="cname">Your name</label>
-                                    <input type="text" class="form-control" id="cname" name="name" placeholder="Your name" minlength="2" required>
+                                    <label class="sr-only" for="agilefield-1">First name</label>
+                                    <input type="text" class="form-control" id="agilefield-1" name="first_name" placeholder="First name" minlength="2" required>
                                 </div>                    
                                 <div class="col-md-6 col-sm-6 col-xs-12 form-group">
-                                    <label class="sr-only" for="cemail">Email address</label>
-                                    <input type="email" class="form-control" id="cemail" name="email" placeholder="Your email address" required>
+                                    <label class="sr-only" for="agilefield-2">Last name</label>
+                                    <input type="text" class="form-control" id="agilefield-2" name="last_name" placeholder="Last name" minlength="2" required>
+                                </div>                    
+                                <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                    <label class="sr-only" for="agilefield-3">Email address</label>
+                                    <input type="email" class="form-control" id="agilefield-3" name="email" placeholder="Your email address" required>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12 form-group">
-                                    <label class="sr-only" for="cmessage">Your message</label>
-                                    <textarea class="form-control" id="cmessage" name="message" placeholder="Enter your message" rows="12" required></textarea>
+                                    <label class="sr-only" for="agilefield-5">How can we help</label>
+                                    <textarea class="form-control" id="agilefield-5" name="note" placeholder="How can we help" rows="12" required></textarea>
                                 </div>
                                  <div class="col-md-12 col-sm-12 col-xs-12 form-group">
-                                    <button type="submit" class="btn btn-block btn-cta btn-cta-primary">Send Message</button>
+                                    <button type="submit" class="btn btn-block btn-cta btn-cta-primary">Start the conversation</button>
                                 </div>                           
                             </div><!--//row-->
                         </div>
                     </div><!--//row-->
                     <div id="form-messages"></div>
+                </fieldset>
                 </form><!--//contact-form-->
             </div><!--//container-->
         </section><!--//contact-section-->
@@ -110,35 +124,35 @@
         <section class="contact-other-section section">
             <div class="container text-center">
                 <h2 class="title">Other ways to reach us</h2>
-                <p class="intro">You can also get in touch lorem ipsum dolor sit amet. Donec ut massa consequat, bibendum metus pellentesque, pellentesque arcu. </p>
+                <p class="intro"></p>
                 <div class="row">
                     <ul class="other-info list-unstyled col-md-6 col-sm-10 col-xs-12 col-md-offset-3 col-sm-offset-1 xs-offset-0" >
-                        <li><i class="fa fa-envelope-o"></i><a href="#">hello@yourwebsite.com</a></li>
-                        <li><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_media" target="_blank">@3rdwave_themes</a></li>
-                        <li><i class="fa fa-phone"></i><a href="tel:+0800123456">0800 123 456</a></li>
-                        <li><i class="fa fa-map-marker"></i>Queen Square <br /> 56 College Green Road<br />BS1 XR18<br />Bristol<br />UK</li>
+                        <li><i class="fa fa-envelope-o"></i><a href="#">info@boldskytech.com</a></li>
+                        <!-- <li><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_media" target="_blank">@3rdwave_themes</a></li> -->
+                        <li><i class="fa fa-phone"></i><a href="tel:+0800123456">(478) 718-2522</a></li>
+                        <li><i class="fa fa-map-marker"></i>395 Gold Cove Lane<br />30097<br />Johns Creek Georgia<br />US</li>
                     </ul>
                 </div><!--//row-->
             </div><!--//container-->
         </section><!--//contact-other-section-->
         
         <!-- ******Map Section****** --> 
-        <section class="map-section section">
+        <!-- <section class="map-section section">
             <div class="container text-center">
                 <h2 class="title">How to find us</h2>
                 <p class="intro">Pellentesque efficitur lobortis massa eu sodales. Morbi eu ipsum euismod felis commodo porttitor quis sit amet leo. Sed lacinia eu ipsum sit amet tempus.</p>
                 <div class="gmap-wrapper">
-                    <div class="gmap" id="map"></div><!--//map-->
+                    <div class="gmap" id="map"></div> --><!--//map-->
                 </div><!--//gmap-wrapper-->
             </div><!--//container-->
         </section><!--//map-section-->
         
         <!-- ******CTA Section****** -->
-        <section id="cta-section" class="section cta-section text-center contact-cta-section">
+        <section id="cta-section" class="section cta-section text-center home-cta-section">
             <div class="container">
-               <h2 class="title">Ready to promote your product online?</h2>
-               <p class="intro">More than <span class="counting">300,000</span> users are using Velocity</p>
-               <p><a class="btn btn-cta btn-cta-primary" href="https://wrapbootstrap.com/theme/velocity-designed-for-products-WB0N38R04" target="_blank">Get Velocity Now</a></p>
+               <h2 class="title">Ready to level-up your gear?</h2>
+               <p class="intro">Check out our <span class="counting">laser enclosures</span>  here</p>
+               <p><a class="btn btn-cta btn-cta-primary" href="#">Shop now</a></p>
             </div><!--//container-->
         </section><!--//cta-section-->
 
@@ -193,12 +207,12 @@
                                 <li class="row-end"><a href="#"><i class="fa fa-rss"></i></a></li>             
                             </ul>
                             <div class="form-container">
-                                <p class="intro">Stay up to date with the latest news and offers from Velocity</p>
+                                <p class="intro">Stay up to date with the latest news and offers from Boldsky</p>
                                 <form class="signup-form navbar-form">
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Enter your email address">
                                     </div>   
-                                    <button type="submit" class="btn btn-cta btn-cta-primary">Subscribe Now</button>                                 
+                                    <button type="submit" class="btn btn-cta btn-cta-primary">Keep Informed</button>                                 
                                 </form>                               
                             </div><!--//subscription-form-->
                         </div><!--//footer-col-inner-->
@@ -208,12 +222,12 @@
                 <div class="row has-divider">
                     <div class="footer-col download col-md-6 col-sm-12 col-xs-12">
                         <div class="footer-col-inner">
-                            <h3 class="title">Mobile apps</h3>
+                            <!--<h3 class="title">Mobile apps</h3>
                             <ul class="list-unstyled download-list">
                                 <li><a class="btn btn-ghost" href="#"><i class="fa fa-apple"></i><span class="text">Download for iOS</span> </a></li>
                                 <li><a class="btn btn-ghost" href="#"><i class="fa fa-android"></i><span class="text">Download for Android</span></a></li>
                                 <li><a class="btn btn-ghost" href="#"><i class="fa fa-windows"></i><span class="text">Windows coming soon...</span></a></li>
-                            </ul>
+                            </ul>-->
                         </div><!--//footer-col-inner-->
                     </div><!--//download-->
                     <div class="footer-col contact col-md-6 col-sm-12 col-xs-12">
@@ -222,14 +236,14 @@
                             <p class="adr clearfix">
                                 <i class="fa fa-map-marker pull-left"></i>        
                                 <span class="adr-group pull-left">       
-                                    <span class="street-address">College Green</span><br>
-                                    <span class="region">56 College Green Road</span><br>
-                                    <span class="postal-code">BS1 XR18</span><br>
-                                    <span class="country-name">UK</span>
+                                    <span class="street-address">395 Gold Cove Lane</span><br>
+                                    <span class="region">Johns Creek Georgia</span><br>
+                                    <span class="postal-code">30097</span><br>
+                                    <span class="country-name">United States</span>
                                 </span>
                             </p>
-                            <p class="tel"><i class="fa fa-phone"></i>0800 123 4567</p>
-                            <p class="email"><i class="fa fa-envelope-o"></i><a href="#">enquires@website.com</a></p> 
+                            <p class="tel"><i class="fa fa-phone"></i>(478) 718-2522</p>
+                            <p class="email"><i class="fa fa-envelope-o"></i><a href="#">info@boldskytech.com</a></p> 
                             <a href="https://twitter.com/3rdwave_themes" class="twitter-follow-button" data-show-count="false">Follow @3rdwave_themes</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>                        
                         </div><!--//footer-col-inner-->
@@ -239,7 +253,7 @@
         </div><!--//footer-content-->
         <div class="bottom-bar">
             <div class="container">
-                <small class="copyright">Copyright @ 2015 <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>                
+                <small class="copyright">Copyright @ 2016 <a href="#">Boldsky Technologies</a></small>                
             </div><!--//container-->
         </div><!--//bottom-bar-->
     </footer><!--//footer-->
