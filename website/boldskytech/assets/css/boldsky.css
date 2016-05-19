@@ -1,3 +1,13 @@
+iframe {
+	margin: 0;
+	padding: 0;
+	border: none;
+	min-height: 3800px;
+	width: 100%;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
 ul.checklist {
 	list-style-image: url('../images/icons/academy-checkmark.png');
 }
@@ -10,31 +20,16 @@ ul.checklist {
   /*max-height: 200px !important;*/
 }
 
+.modal-footer {
+	border-top: 0px;
+}
+
+.agile-form {
+display: none; height: 0px; width: 0px;
+}
+
 #myCarousel .item{
 	padding-top:0px;
 	padding-bottom:0px;
 	border-bottom-width:0px;
 }
-
-/* For the privacy terms modal */
-#ppBody
-{
-    font-size:11pt;
-    width:100%;
-    margin:0 auto;
-    text-align:justify;
-}
-
-#ppHeader
-{
-    font-family:verdana;
-    font-size:21pt;
-    width:100%;
-    margin:0 auto;
-}
-
-.ppConsistencies
-{
-    display:none;
-}
-/* End Privacy Terms */
