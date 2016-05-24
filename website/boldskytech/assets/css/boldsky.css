@@ -25,11 +25,23 @@ ul.checklist {
 }
 
 .agile-form {
-display: none; height: 0px; width: 0px;
+	display: none; height: 0px; width: 0px;
 }
+
+.mixed {
+	min-height: 220px;
+}
+
+@media (min-width: 767px){
+	.testimonials .item .content {
+		padding-left: 300px;
+	}
+}
+
 
 #myCarousel .item{
 	padding-top:0px;
 	padding-bottom:0px;
 	border-bottom-width:0px;
 }
+
